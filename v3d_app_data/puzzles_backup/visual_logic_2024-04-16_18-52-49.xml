@@ -1,12 +1,12 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <tab name="init" type="InitTab" active="false" scrollx="602" scrolly="313.5" scale="0.9"></tab>
-  <tab name="main" type="MainTab" active="true" scrollx="480.5585936974056" scrolly="-294.97446019346893" scale="0.8275510259838921">
+  <tab name="main" type="MainTab" active="true" scrollx="501.1521238928167" scrolly="-85.49569390295869" scale="0.7853887681806461">
     <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="~iwV(=aN.UZnSPc,yCj," type="">b</variable>
+      <variable id="=PO#(2z7W3]w9P3byH@x" type="">c</variable>
       <variable id=".KLGo*Ho(f(%Xojia8-^" type="">m</variable>
       <variable id=")g_PiUUQG=vV1oMs4_Ra" type="">a</variable>
       <variable id="c)cD%nlSU@[w$zKlBH=u" type="">loc</variable>
-      <variable id="~iwV(=aN.UZnSPc,yCj," type="">b</variable>
-      <variable id="=PO#(2z7W3]w9P3byH@x" type="">c</variable>
     </variables>
     <block xmlns="https://developers.google.com/blockly/xml" type="hide" id="7iD%RCPAoq1;f2QpwdXL" x="-679" y="-285">
       <value name="VALUE">
@@ -603,16 +603,7 @@
         </block>
       </value>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="variables_get" id="P6Q3sN1EG6Uxs)))=0|R" x="300" y="438">
-      <field name="VAR" id="c)cD%nlSU@[w$zKlBH=u">loc</field>
-    </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="r8dyJ.g^CuTi^egV!^Y:" x="10" y="650">
-      <field name="VAR" id="c)cD%nlSU@[w$zKlBH=u">loc</field>
-      <value name="VALUE">
-        <block type="dictCreateEmpty" id="#]B@fEn}e+EVOY?IznG?"/>
-      </value>
-    </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="w@Q1=!+aigD@q*mMu[=5" x="170" y="770">
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="w@Q1=!+aigD@q*mMu[=5" x="290" y="510">
       <mutation>
         <arg name="a" varid=")g_PiUUQG=vV1oMs4_Ra"/>
       </mutation>
@@ -620,7 +611,6 @@
       <comment pinned="false" h="80" w="160">Describe this function...</comment>
       <statement name="STACK">
         <block type="whenDraggedOver" id="swC`[*W61}cTe4;w8Spj">
-          <mutation xmlns="http://www.w3.org/1999/xhtml" adv_event_opts="false" do_start="false" do_drop="true"></mutation>
           <field name="X_RAY">FALSE</field>
           <field name="LEFT_BUTTON">TRUE</field>
           <field name="MIDDLE_BUTTON">TRUE</field>
@@ -646,7 +636,7 @@
               </value>
             </block>
           </statement>
-          <statement name="DO_DROP">
+          <next>
             <block type="dictSet" id="=]y3zf5dL8w,`}1K1{`X">
               <value name="DICT">
                 <block type="variables_get" id="9JE?(eNEK9L2pkZaT^wR">
@@ -676,23 +666,17 @@
                   </value>
                 </block>
               </value>
-              <next>
-                <block type="console.log" id="!_y.`I4$#nyT?9nuRr0o">
-                  <value name="VALUE">
-                    <shadow type="text" id="t4g/fAsfIXZjuAwg@EdB">
-                      <field name="TEXT">Hello, Verge!</field>
-                    </shadow>
-                    <block type="variables_get" id="H.nE7HCd{fzg#rKR)NAL">
-                      <field name="VAR" id="c)cD%nlSU@[w$zKlBH=u">loc</field>
-                    </block>
-                  </value>
-                </block>
-              </next>
             </block>
-          </statement>
+          </next>
         </block>
       </statement>
     </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="r8dyJ.g^CuTi^egV!^Y:" x="10" y="650">
+      <field name="VAR" id="c)cD%nlSU@[w$zKlBH=u">loc</field>
+      <value name="VALUE">
+        <block type="dictCreateEmpty" id="#]B@fEn}e+EVOY?IznG?"/>
+      </value>
+    </block>
   </tab>
-  <editorsettings viewport-x="993.9999023437499" viewport-y="-11.800003051757812" viewport-w="524.8" viewport-h="351.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+  <editorsettings viewport-x="993.1999755859374" viewport-y="28" viewport-w="524.8" viewport-h="351.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
 </xml>
